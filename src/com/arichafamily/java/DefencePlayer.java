@@ -21,8 +21,8 @@ public class DefencePlayer extends Player {
 
     @Override
     public String toString() {
-        return "DefencePlayer{" +
-                "nunOfFouls=" + nunOfFouls +
-                '}';
+        return "DefencePlayer" +
+                "\nnunOfFouls = " + nunOfFouls +
+                "\nPlayer name: " + getPlayerName();
     }
 }
