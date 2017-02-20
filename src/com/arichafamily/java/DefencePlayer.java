@@ -22,7 +22,7 @@ public class DefencePlayer extends Player {
     @Override
     public String toString() {
         return "DefencePlayer" +
-                "\nnunOfFouls = " + nunOfFouls +
-                "\nPlayer name: " + getPlayerName();
+               "\nnunOfFouls = " + nunOfFouls +
+               "\nPlayer name: " + getPlayerName();
     }
 }
